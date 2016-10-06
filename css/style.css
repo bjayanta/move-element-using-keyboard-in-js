@@ -1,0 +1,18 @@
+*{box-sizing: border-box;}
+
+#wrapper{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	height: 300px;
+}
+
+#item{
+	width: 100px;
+	height: 100px;
+	background: #f44;
+	position: absolute;
+}
